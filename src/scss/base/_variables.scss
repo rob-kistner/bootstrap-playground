@@ -1,0 +1,27 @@
+// new 4.4: certain font sizes reduce on mobile, etc.
+$enable-pointer-cursor-for-buttons: true;
+
+// new 4.4: certain font sizes reduce on mobile, etc.
+$enable-responsive-font-sizes: true;
+
+// enable shadows on certain components
+$enable-shadows: true;
+
+// enable gradient fills on certain components
+$enable-gradients: true;
+
+$font-family-sans-serif: 'IBM Plex Sans', sans-serif;
+
+$colors: (
+  "blue": rgb(19, 146, 168),
+  "coolgray": rgb(66, 85, 110)
+);
+
+$theme-colors: (
+  "primary": color("blue"),
+  "coolgray": color("coolgray")
+);
+
+$body-color: color("coolgray");
+$body-bg: #ddd;
+
